@@ -1,7 +1,7 @@
 # Self-Balancing Robot Simulator
 
 A robot that stands on two wheels and balances itself upright — like a mini Segway.
-
+download the requirments in the anaconda terminal for the pybullet for smooth download.
 ## What Does It Do?
 
 The robot tries to stay standing upright on its own. When you push it or tilt it, the robot automatically corrects itself and returns to standing straight.
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 2. Run the simulation:
 ```bash
-python main.py
+self_balance.py
 ```
 
 A window will open showing the robot standing still on a ground plane.
@@ -63,7 +63,7 @@ That's it — if the robot tilts forward, the wheels spin to push it back uprigh
 
 ## Project Files
 
-- `main.py` — The actual simulation (run this one)
+- `self_balance.py` — The actual simulation (run this one)
 - `pid_controller.py` — The balancing logic
 - `plot_resultsself.py` — Creates graphs from the data
 - `balance_log.csv` — Data saved after you run main.py
@@ -76,7 +76,7 @@ That's it — if the robot tilts forward, the wheels spin to push it back uprigh
 pip install -r requirements.txt
 
 # Run the simulation
-python main.py
+self_balance.py
 # → Drag the robot in the window to test it
 # → Close the window when done
 
