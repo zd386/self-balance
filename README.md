@@ -8,8 +8,8 @@ The robot tries to stay standing upright on its own. When you push it or tilt it
 
 **How to test it:**
 - Run the simulation
-- In the PyBullet window, **click and drag the robot** to tilt/push it
-- Watch the robot correct itself and balance again
+- In the PyBullet window, move the slidebar to increase the velocity positive or negative to move forward or backward.
+
 
 ## Setup
 
@@ -96,5 +96,4 @@ PID_KI = 0.5
 PID_KD = 0.5
 ```
 
-Try increasing `PID_KP` to 12 or 15 for stronger correction.
 
