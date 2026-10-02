@@ -29,9 +29,7 @@ A window will open showing the robot standing still on a ground plane.
 ## How to Use It
 
 **While the window is open:**
-- **Click and drag** the robot (the blue box) to tilt or push it
-- Watch the wheels spin to keep it balanced
-- The robot will recover and stand upright again
+-move the slidebar to move the robot forward or backward. the slidebar is in the right side of the screen.
 
 **When you close the window:**
 - The simulation saves data to `balance_log.csv`
@@ -51,13 +49,7 @@ This opens a graph with two panels:
 
 A file called `balance_response.png` is also saved.
 
-## How It Works (Simple Version)
 
-1. **Sensor:** The robot has a simulated sensor that measures how tilted it is
-2. **Brain:** A controller (PID) reads that tilt and decides how hard to spin the wheels
-3. **Wheels:** The wheels spin to push back and correct the tilt, keeping the robot upright
-
-That's it — if the robot tilts forward, the wheels spin to push it back upright.
 
 
 
